@@ -1,0 +1,99 @@
+  * {
+    cursor:pointer;
+  }
+
+  .cadre {
+    background-color:lightgrey;
+    border:1px solid black;
+    margin-bottom:4px;
+  }
+
+  .carre {
+    width:100px;height:100px;
+    background: url('cards.png') no-repeat;
+    margin:0px;
+  }
+
+  .flippable {
+    opacity:0;
+  }
+
+
+  #main {
+    margin-left:auto;margin-right:auto;
+    padding:10px;
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+
+  }
+
+  #container {
+    background-color:grey;
+    width:420px;
+    padding:5px;
+  }
+
+  #board {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-content:space-around;
+    width:auto;
+  }
+
+
+  #boardoverlay {
+    background-color:transparent;
+    opacity:0.5;
+    position:absolute;
+    width:440px;
+    height:430px;
+    top:20px;
+  }
+
+  .meter {
+    height: 20px;  /* Can be anything */
+    position: relative;
+    background: #555;
+    border-radius: 25px;
+    padding: 10px;margin:10px;
+    overflow: hidden;
+    width:100%;
+  }
+
+  .meter > span {
+    color:white;font-weight:bold;
+    font-family:arial;
+    text-align:center;
+    display: block;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(43,194,83);
+    box-shadow: 
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+    position: relative;
+  }
+
+  div.start{
+    cursor:pointer;
+  }
+
+
+  .start {
+
+    border-radius:8px;
+    width:50px;
+    margin:10px;padding:10px;
+    font-size:20px;
+    font-family:arial;
+    color:white;
+    background-color:rgb(43,194,83);
+    box-shadow: 
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  }
